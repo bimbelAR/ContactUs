@@ -4,138 +4,18 @@
   <meta charset="UTF-8">
   <title>Bimbel Arrazi | Landing Page</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
 </head>
 <body>
   <nav class="sticky-nav" id="nav">
-    <ul>
-      <li><a href="#hero" class="active">Beranda</a></li>
-      <li><a href="#info">Info</a></li>
-      <li><a href="#form">Daftar/Konsultasi</a></li>
-      <li><a href="#faq">FAQ</a></li>
-      <li><a href="#lokasi">Lokasi &amp; Video</a></li>
-    </ul>
+    <!-- ... -->
   </nav>
   <section class="hero" id="hero">
     <img src="images/logo.png" alt="logo" style="width:120px;">
-    <div class="hero-title">Bimbel Arrazi</div>
-    <div class="hero-lead">
-      Satu halaman untuk konsultasi, pendaftaran, promo, info lengkap, dan lokasi.<br/>
-      Bimbel SD–SMA, kelas online &amp; offline, layanan cepat dan ramah!
-    </div>
-    <a class="hero-cta" href="https://wa.me/6281234567890?text=Halo%20Bimbel%20Arrazi,%20saya%20ingin%20konsultasi%20atau%20daftar%20bimbel." target="_blank">
-      <i class="fab fa-whatsapp"></i> Chat WhatsApp Sekarang
-    </a>
+    <!-- ... -->
   </section>
-  <section class="section" id="info">
-    <div class="section-title">Info Kontak &amp; Promo</div>
-    <div class="info-row">
-      <div class="info-card">
-        <i class="fab fa-whatsapp"></i>
-        <b>WhatsApp:</b><br/>
-        <a href="https://wa.me/6281234567890" target="_blank">+62 812-3456-7890</a>
-      </div>
-      <div class="info-card">
-        <i class="fas fa-envelope"></i>
-        <b>Email:</b><br/>
-        <a href="mailto:info@arrazi.com">info@arrazi.com</a>
-      </div>
-      <div class="info-card">
-        <i class="fas fa-phone"></i>
-        <b>Telepon:</b><br/>
-        (021) 123-4567
-      </div>
-      <div class="info-card">
-        <i class="fas fa-map-marker-alt"></i>
-        <b>Alamat:</b><br/>
-        Jl. Pendidikan No. 10, Jakarta
-      </div>
-      <div class="info-card">
-        <i class="fas fa-clock"></i>
-        <b>Jam Layanan:</b><br/>
-        Senin–Sabtu, 08:00–20:00 WIB
-      </div>
-    </div>
-    <div class="socmed">
-      <a href="https://instagram.com/bimbelarrazi" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
-      <a href="https://facebook.com/bimbelarrazi" target="_blank" title="Facebook"><i class="fab fa-facebook"></i></a>
-      <a href="mailto:info@arrazi.com" title="Email"><i class="fas fa-envelope"></i></a>
-    </div>
-    <div class="promo-banner">
-      <i class="fas fa-bullhorn"></i> Promo Juni: Daftar sekarang, gratis konsultasi &amp; diskon hingga 30%!
-    </div>
-  </section>
-  <section class="section" id="form">
-    <div class="section-title">Formulir Konsultasi / Pendaftaran</div>
-    <form class="consult-form" id="arraziForm" action="https://formspree.io/f/your-form-id" method="POST" autocomplete="on">
-      <div class="form-msg" id="formMsg"></div>
-      <label for="nama">Nama Lengkap</label>
-      <input type="text" id="nama" name="Nama" required="required" placeholder="Nama Anda"/>
-      <label for="whatsapp">No. WhatsApp/HP</label>
-      <input type="tel" id="whatsapp" name="WhatsApp" required="required" pattern="^(\+62|62|08)[0-9]{8,15}$" placeholder="08xxx atau +62xxx"/>
-      <label for="email">Email</label>
-      <input type="email" id="email" name="Email" required="required" placeholder="emailanda@email.com"/>
-      <label for="jenis">Jenis Konsultasi</label>
-      <select name="Jenis Konsultasi" id="jenis" required="required">
-        <option value="">-- Pilih --</option>
-        <option>Konsultasi Belajar</option>
-        <option>Pendaftaran</option>
-        <option>Pembayaran</option>
-        <option>Laporan Masalah</option>
-        <option>Lainnya</option>
-      </select>
-      <label for="pesan">Pesan / Pertanyaan</label>
-      <textarea id="pesan" name="Pesan" rows="5" required="required" placeholder="Tulis pesan, pertanyaan, atau permintaan Anda di sini..."></textarea>
-      <button type="submit">Kirim Pesan</button>
-    </form>
-    <div style="text-align:center; margin:16px 0 4px 0;">
-      <a class="hero-cta" style="font-size:1.05rem;padding:10px 28px;background: #205081;" href="https://forms.gle/your-google-form-id" target="_blank">
-        <i class="fas fa-edit"></i> Daftar Online via Google Form
-      </a>
-    </div>
-  </section>
-  <section class="section" id="faq">
-    <div class="section-title">FAQ - Pertanyaan Populer</div>
-    <div class="faq-list">
-      <div class="faq-item">
-        <button class="faq-q">Apa saja program di Bimbel Arrazi?</button>
-        <div class="faq-a">Bimbel Arrazi menyediakan bimbel SD, SMP, SMA, kelas persiapan ujian, privat, dan kelas online.</div>
-      </div>
-      <div class="faq-item">
-        <button class="faq-q">Bagaimana cara mendaftar?</button>
-        <div class="faq-a">Klik tombol Chat WhatsApp atau isi formulir di atas, kami akan segera menghubungi Anda.</div>
-      </div>
-      <div class="faq-item">
-        <button class="faq-q">Adakah promo &amp; diskon?</button>
-        <div class="faq-a">Setiap bulan ada promo menarik! Lihat banner promo di atas atau hubungi admin via WhatsApp.</div>
-      </div>
-      <div class="faq-item">
-        <button class="faq-q">Bimbel Arrazi ada kelas online?</button>
-        <div class="faq-a">Tentu! Kami menyediakan kelas online interaktif serta kelas tatap muka di lokasi kami.</div>
-      </div>
-    </div>
-  </section>
-  <section class="section" id="lokasi">
-    <div class="section-title">Lokasi &amp; Video Profil</div>
-    <div class="map-video-row">
-      <div class="map-card">
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.106087786979!2d106.81666631531707!3d-6.200000000000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f3e7e2e6b3ad%3A0x123bimbelpintar!2sJl.%20Pendidikan%20No.%2010%2C%20Jakarta!5e0!3m2!1sid!2sid!4v1700000000000!5m2!1sid!2sid"
-          allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        <div style="margin-top:2px;">
-          <a href="https://maps.app.goo.gl/xxxxxx" target="_blank" style="color:#205081;font-weight:600;"><i class="fas fa-map-marked-alt"></i> Lihat di Google Maps</a>
-        </div>
-      </div>
-      <div class="video-card">
-        <iframe src="https://www.youtube.com/embed/6v2L2UGZJAM" title="Profil Bimbel Arrazi" allowfullscreen="allowfullscreen"></iframe>
-        <div style="color:#205081;margin-top:3px;font-size:0.96em;">Profil &amp; Suasana Bimbel Arrazi</div>
-      </div>
-    </div>
-  </section>
-  <a class="wa-float" href="https://wa.me/6281234567890?text=Halo%20Bimbel%20Arrazi%2C%20saya%20ingin%20konsultasi%20atau%20daftar%20bimbel." target="_blank" title="Chat WhatsApp">
-    <i class="fab fa-whatsapp"></i>
-  </a>
-  <script src="script.js"></script>
+  <!-- ... -->
+  <script src="js/script.js"></script>
 </body>
 </html>
